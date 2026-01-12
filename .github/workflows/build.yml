@@ -74,4 +74,4 @@ jobs:
         uses: actions/upload-artifact@v4
         with:
           name: MoonBot-APK
-          path: MoonBot_Android/bin/*.apk
+          path: bin/*.apk
