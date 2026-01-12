@@ -20,7 +20,7 @@ source.include_exts = py,png,jpg,kv,atlas,db,session,json,txt
 
 # (list) Application requirements
 # Penting: Kita masukkan dependency MoonBot di sini
-requirements = python3,kivy==2.2.1,kivymd==1.1.1,telethon,sqlite3,pillow
+requirements = python3,kivy==2.2.1,kivymd==1.1.1,telethon,sqlite3,pillow,pyaes
 
 # (str) Custom source folders for requirements
 # Sets custom source for any requirements with recipes
