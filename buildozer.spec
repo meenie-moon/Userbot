@@ -60,6 +60,9 @@ android.minapi = 21
 # (str) Android NDK version to use
 android.ndk = 25b
 
+# (str) The architecture to build for, choices: armeabi-v7a, arm64-v8a, x86, x86_64
+android.archs = arm64-v8a
+
 # (bool) Use --private data storage (True) or --dir public storage (False)
 android.private_storage = True
 
@@ -139,7 +142,7 @@ android.entrypoint = org.kivy.android.PythonActivity
 [buildozer]
 
 # (int) Log level (0 = error only, 1 = info, 2 = debug (with command output))
-log_level = 2
+log_level = 1
 
 # (int) Display warning if buildozer is run as root (0 = False, 1 = True)
 warn_on_root = 0
